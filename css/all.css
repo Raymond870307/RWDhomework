@@ -46,7 +46,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* //rwd img css 可當作式css reset其中一種// */
+img{
+max-width:100%;
+height:auto;
+}
+/* //全域border box// */
+*,*::before,*::after{
+box-sizing:border-box;
+}
 
-h1{
-    color: black;
+
+/* <以下為css> */
+
+.container{
+	margin: 0 auto;
+	max-width: 1088px;
+	max-height: 100vh;
+	border: solid red;
+	margin-top: 24px;
+}
+.wrap{
+	width: 218px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.btn{
+	display: block;
+	align-items: center;
+	text-align: center;
+	border-radius:22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 32px;
+	padding-left: 32px;
+	/* transform: translateY(-50%); */
+	/* width: 128px;
+	height: 40px; */
+	background-color: #FF5D50;
+	color: white;
 }
