@@ -56,17 +56,23 @@ height:auto;
 box-sizing:border-box;
 }
 /* font導入 */
-@font-face {
-	font-family: 'Helvetica';
-	src: url('../fonts/Helvetica.woff') format("woff"),
-		   url('../fonts/Helvetica.ttf') format("truetype"),
-		   url('../fonts/Helvetica.eot') format("embedded-opentype");
-  }
 
-/* <以下為css> */
-body{
-	font-family: 'Helvetica' ;
+
+/* 背景圖片css設定 */
+.position-absolute{
+	position: absolute;
 }
+.bg-home{
+	right: 0;
+	width: 860px;
+	height: 768px;
+	background-repeat: no-repeat;
+	background-image: url(https://github.com/Raymond870307/RwdHomework/blob/master/png/bg_yellow@2x.png?raw=true://github.com/Raymond870307/RwdHomework/blob/master/png/bg_yellow%402x.png);
+}
+.zindex-1{
+	z-index: -1;
+}
+/* <以下為css> */
 .bordertest{
 	border: solid gray;
 	display: block;
