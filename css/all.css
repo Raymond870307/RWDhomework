@@ -55,10 +55,22 @@ height:auto;
 *,*::before,*::after{
 box-sizing:border-box;
 }
-
+/* font導入 */
+@font-face {
+	font-family: 'Helvetica';
+	src: url('../fonts/Helvetica.woff') format("woff"),
+		   url('../fonts/Helvetica.ttf') format("truetype"),
+		   url('../fonts/Helvetica.eot') format("embedded-opentype");
+  }
 
 /* <以下為css> */
-
+body{
+	font-family: 'Helvetica' ;
+}
+.bordertest{
+	border: solid gray;
+	display: block;
+}
 .container{
 	margin: 0 auto;
 	max-width: 1088px;
@@ -66,26 +78,62 @@ box-sizing:border-box;
 	border: solid red;
 	margin-top: 24px;
 }
-.wrap{
+.wrap01{
 	width: 218px;
 }
 .header{
 	display: flex;
 	justify-content: space-between;
+	border: solid gray;
 	
 }
 .btn{
-	display: block;
-	align-items: center;
-	text-align: center;
 	border-radius:22px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 32px;
 	padding-left: 32px;
-	/* transform: translateY(-50%); */
-	/* width: 128px;
-	height: 40px; */
 	background-color: #FF5D50;
 	color: white;
+	
+}
+.section{
+	display: flex;
+	border: solid gray;
+}
+.content{
+	height: 220px;
+	border: solid gray;
+	transform: translateY(50%);
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+.wrap02{
+	margin: 0 auto;
+	width: 532px;
+	height: 534px;
+	background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home.svg);
+	background-repeat: no-repeat;
+	
+}
+.primary{
+	color:#56C4C5;
+}
+h2{
+	font-size: 18px;
+	font-weight: 700;
+}
+h1{
+	font-size:48px;
+	font-weight: 900;
+	color: #221E1F;
+}
+h3{
+	font-size: 20px;
+	color: #221E1F;
+}
+.title01{
+	padding-top: 8px;
+	padding-bottom: 12px;
 }
