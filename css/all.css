@@ -67,12 +67,23 @@ box-sizing:border-box;
 	width: 860px;
 	height: 768px;
 	background-repeat: no-repeat;
-	background-image: url(https://github.com/Raymond870307/RwdHomework/blob/master/png/bg_yellow@2x.png?raw=true://github.com/Raymond870307/RwdHomework/blob/master/png/bg_yellow%402x.png);
+	background-image: url(https://github.com/Raymond870307/RwdHomework/blob/master/png/bg_yellow.png?raw=true);
+}
+.top{
+	right: 48px;
+	top: 674px;
+	width: 71px;
+	height: 71px;
+	background-image: url(https://github.com/Raymond870307/RwdHomework/blob/master/png/top.png?raw=true);
+	background-image: no-repeat;
 }
 .zindex-1{
 	z-index: -1;
 }
 /* <以下為css> */
+.text-allign-center{
+	text-align: center;
+}
 .bordertest{
 	border: solid gray;
 	display: block;
@@ -82,7 +93,6 @@ box-sizing:border-box;
 	max-width: 1088px;
 	max-height: 100vh;
 	border: solid red;
-	margin-top: 24px;
 }
 .wrap01{
 	width: 218px;
@@ -125,10 +135,16 @@ box-sizing:border-box;
 }
 .primary{
 	color:#56C4C5;
+	font-size: 18px;
+	font-weight: 900;
+}
+.secondary{
+	color: #221E1F;
+	font-weight: 800;
 }
 h2{
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 32px;
+	font-weight: 900;
 }
 h1{
 	font-size:48px;
@@ -139,7 +155,63 @@ h3{
 	font-size: 20px;
 	color: #221E1F;
 }
-.title01{
+p{
+	color: #747474;
+	font-size: 16px;
+}
+.big-title{
 	padding-top: 8px;
 	padding-bottom: 12px;
+}
+.icon-title{
+	font-size: 24px;
+}
+.item{
+	text-align: center;
+    width: 33%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.box-flex{
+	display: flex;
+}
+.mg-01{
+	margin-bottom: 88px;
+}
+.mg-02{
+	margin-bottom: 12px;
+}
+.mg-03{
+	margin-bottom: 48px;
+}
+
+.icon-left{
+	margin: 0 auto;
+	width: 90px;
+	height: 90px;
+}
+
+.icon-middle{
+	margin: 0 auto;
+	width: 90px;
+	height: 90px;
+
+}
+.icon-right{
+	margin: 0 auto;
+	width: 90px;
+	height: 90px;
+}
+.text-middle{
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.title-font-size{
+font-size: 24px;
+}
+.chacractor-card{
+	margin: 0 auto;
+	width: 260px;
+	height: 260px;
 }
